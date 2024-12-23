@@ -4,6 +4,7 @@ import Services from './components/Services/Services';
 import Pricing from './components/Pricing/Pricing';
 import Gallery from './components/Gallery/Gallery';
 import Appointment from './components/Appointment/Appointment';
+import BackToTop from './components/BackToTop/BackToTop';
 import Footer from './components/Footer/Footer';
 import './App.css';
 
@@ -18,6 +19,7 @@ function App() {
           <Pricing></Pricing>
           <Gallery></Gallery>
           <Appointment></Appointment>
+          <BackToTop></BackToTop>
         </article>
       </main>
       <Footer></Footer>
