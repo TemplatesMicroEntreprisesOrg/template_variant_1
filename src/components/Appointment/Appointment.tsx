@@ -1,6 +1,8 @@
 import { IonIcon } from '@ionic/react';
 import { arrowForward } from 'ionicons/icons';
 import './Appointment.css';
+import appoinBanner1 from '../../assets/img/appoin-banner-1.jpg';
+import appoinBanner2 from '../../assets/img/appoin-banner-2.jpg';
 
 const Appointment = () => {
   return (
@@ -14,7 +16,7 @@ const Appointment = () => {
           {/* Left banner */}
           <figure className="card-banner img-holder .figure-size-style">
             <img
-              src="./assets/images/appoin-banner-1.jpg"
+              src={appoinBanner1}
               width="250"
               height="774"
               loading="lazy"
@@ -90,7 +92,7 @@ const Appointment = () => {
           {/* Right banner */}
           <figure className="card-banner img-holder .figure-size-style">
             <img
-              src="./assets/images/appoin-banner-2.jpg"
+              src={appoinBanner2}
               width="250"
               height="774"
               loading="lazy"

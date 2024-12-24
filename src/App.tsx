@@ -7,6 +7,7 @@ import Appointment from './components/Appointment/Appointment';
 import BackToTop from './components/BackToTop/BackToTop';
 import Footer from './components/Footer/Footer';
 import './App.css';
+import './flaticon.css';
 
 function App() {
   return (
@@ -19,10 +20,10 @@ function App() {
           <Pricing></Pricing>
           <Gallery></Gallery>
           <Appointment></Appointment>
-          <BackToTop></BackToTop>
         </article>
       </main>
       <Footer></Footer>
+      <BackToTop></BackToTop>
     </>
   );
 }

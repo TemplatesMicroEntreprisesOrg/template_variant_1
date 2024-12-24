@@ -1,6 +1,6 @@
+import './Services.css';
 import { IonIcon } from '@ionic/react';
 import { arrowForward } from 'ionicons/icons';
-import './Services.css';
 
 const services = [
   {
@@ -62,15 +62,19 @@ function Services() {
           {services.map((service, index) => (
             <li key={index}>
               <div className="service-card">
+                {/* Flaticon Icons */}
                 <div className="card-icon">
                   <i className={service.iconClass}></i>
                 </div>
+
                 <h3 className="h3">
                   <a href={service.link} className="card-title">
                     {service.title}
                   </a>
                 </h3>
+
                 <p className="card-text">{service.description}</p>
+
                 <a href={service.link} className="card-btn" aria-label="more">
                   <IonIcon icon={arrowForward} aria-hidden="true" />
                 </a>
